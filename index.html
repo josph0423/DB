@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="js/jquery-1.12.2.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/fdb-all.min.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<title>ForerunnerDB notes</title>
+</head>
+<body>
+	<div class="container"> <!-- container 在最外層 -->
+	  <div class="row">     <!-- row 在中間 -->
+	    <div class="col-md-6">
+				<table class="table">
+					<thead>
+						<tr>
+							<td>ID</td>
+              <td>姓名</td>
+            </tr>
+	        </thead>
+	        <tbody id="table-body">
+	        </tbody>
+				</table>
+			</div>
+			<div class="col-md-6">
+				<p id="name">name :<input type="text" name="studentName" value=""></p>
+				<p id="age">age :<input type="text" name="studentAge" value=""></p>
+				<input type="button" name="new" value="new" id="new">
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
